@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kirameki Card</title>
+  <meta name="description" content="kirameki-card">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <!--swiper-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <!--css-->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!--ヘッダー-->
+  <header>
+    <div class="header_container">
+      <div class="header_logo">
+        <a href="#">
+          <img src="img/Kirameki_Card_logo.png" alt="logo">
+        </a>
+      </div>
+      <nav class="no-sp nav-main ">
+        <ul>
+          <li><a href="#">カード活用方法</a></li>
+          <li><a href="#">ポイントを使う</a></li>
+          <li><a href="#">お問合せ</a></li>
+        </ul>
+        <div class="btn-apply"><a href="#">申し込む<span class="arrow"><i class="fas fa-chevron-right"></i></span></a></div>
+      </nav>
+      <div class="hamburger-menu no-pc"><i class="fas fa-bars"></i></div>
+    </div>
+
+
+    <!-- SP Menu -->
+    <nav class="nav-sp">
+      <ul>
+        <li><a href="#">カード活用方法</a></li>
+        <li><a href="#">ポイントを使う</a></li>
+        <li><a href="#">お問合せ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--メインビジュアル-->
+  <section class="mainvisual">
+    <div class="mainvisual__header">
+      <h1 class="mainvisual__title">ネットショッピング時代の<br class="no-pc">スタンダード</h1>
+    </div>
+    <div class="mainvisual__image-container">
+      <img src="img/card.png" alt="クレジットカードの画像" class="mainvisual__image">
+    </div>
+    <div class="sp-applybutton no-pc">
+      <div class="btn-apply"><a href="#">申し込む<span class="arrow"><i class="fas fa-chevron-right"></i></span></a></div>
+    </div>
+    <div class="mainvisual__description">
+      <p class="mainvisual__text">
+        キラメキカードは<br class="no-pc">2021最強クレジットカード<br class="no-pc">ランキングNo.1に選ばれました
+      </p>
+    </div>
+  </section>
+
+  <!--CTAセクション-->
+  <div class="sec-right1">
+    <div class="triangle-right">
+    </div>
+  </div>
+
+  <div class="campaign">
+    <h2 class="campaign__heading heading-style">新規ご入会＆ご利用で！</h2>
+
+    <div class="campaign__card">
+      <div class="campaign__card-heading">
+        <div class="heading-flex">
+          <span class="campaign__card-subtitle"><span>最</span><span>大</span></span>
+          <span class="campaign__card-main">8000</span>
+          <span class="campaign__card-subtext">ポイント</span>
+        </div>
+        <span class="present">プレゼント！</span>
+      </div>
+
+      <div class="campaign-period">
+        <div class="campaign-period__label">キャンペーン期間</div>
+        <div class="campaign-period__dates">
+          <p>2021年10月1日～2022年3月31日</p>
+        </div>
+      </div>
+
+      <div class="campaign__note">
+        <p class="kome">最大8000ポイントは新規ご入会かつカード発行後1ヶ月以内に3000円以上ご利用いただいた方が対象となります</p>
+        <p class="caution">＜ご注意事項＞<br>
+          以下のいずれかに当てはまる場合は対象外になります</p>
+        <ul>
+          <li>2021年9月30日時点で弊社が指定するカードをお持ちの方</li>
+          <li>2019年3月1日以降、新規で弊社が指定するカードを発行した履歴がある方</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="campaign__button">
+      <a href="#" class="campaign__button-link"><span class="text">キラメキカードに申し込む</span><span class="arrow"><i
+            class="fas fa-chevron-right"></i></span></a>
+    </div>
+  </div>
+
+  <div class="sec-left1">
+    <div class="triangle-left">
+    </div>
+  </div>
+
+  <!--特典・サービス-->
+  <section class="benefits-services">
+    <div class="content-width">
+      <h2 class="benefits-services__title heading-style">特典・サービス</h2>
+
+      <div class="benefits-services__list">
+        <dl class="benefits-services__item">
+          <dt class="benefits-services__item-title">年会費</dt>
+          <dd class="benefits-services__item-content annual">
+            <p class="middle price">1,100円（税込）</p>
+            <p class="middle">年間30万円のご利用で<span class="highlight">翌年度無料</span><span class="small">&#12288;※1</span></p>
+          </dd>
+        </dl>
+        <dl class="benefits-services__item">
+          <dt class="benefits-services__item-title">ポイント還元</dt>
+          <dd class="benefits-services__item-content point">
+            <p class="middle">最大<span class="highlight percent">5</span>%<span class="small">&nbsp;※2</span></p>
+          </dd>
+        </dl>
+        <dl class="benefits-services__item">
+          <dt class="benefits-services__item-title">継続特典</dt>
+          <dd class="benefits-services__item-content benefit">
+            <p class="small text">年間30万円のご利用でもれなく</p>
+            <p><span class="highlight big">5000</span> <span class="middle">ポイント還元</span><span
+                class="small">&nbsp;※1</span></p>
+          </dd>
+        </dl>
+        <dl class="benefits-services__item">
+          <dt class="benefits-services__item-title">付帯サービス</dt>
+          <dd class="benefits-services__item-content service">
+            <p class="small">海外旅行障害保険</p>
+            <p class="middle">最高<span class="highlight big">2000</span>万円</p>
+          </dd>
+        </dl>
+      </div>
+      <div class="benefits-services__notes">
+        <p><span class="no-pc">※1</span>対象取引や算定期間等の実際の適用条件などの詳細は規約をご確認ください。</p>
+        <p>
+          <span
+            class="no-pc">※2</span>一部ポイント加算対象とならない店舗および指定のポイント還元率にならない場合があります。ポイント還元率は利用金額に対する獲得ポイントを示したもので、ポイントの交換方法によっては、1ポイント1円相当にならない場合がございます。
+        </p>
+      </div>
+      <div class="campaign__button">
+        <a href="#" class="campaign__button-link">キラメキカードに申し込む<span class="arrow"><i
+              class="fas fa-chevron-right"></i></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!--swiper-->
+
+  <div class="sec-right2">
+    <div class="triangle-right">
+    </div>
+  </div>
+
+  <section class="slider">
+    <h2 class="heading-style">カード発行までの流れ</h2>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide slide1">
+          <div class="number">01</div>
+          <div class="description">カードお申し込み</div>
+        </div>
+        <div class="swiper-slide slide2">
+          <div class="number">02</div>
+          <div class="description">入会審査・カード発行</div>
+        </div>
+        <div class="swiper-slide slide3">
+          <div class="number">03</div>
+          <div class="description">カード到着</div>
+        </div>
+        <div class="swiper-slide slide4">
+          <div class="number">04</div>
+          <div class="description">アプリをダウンロード</div>
+        </div>
+        <div class="swiper-slide slide5">
+          <div class="number">05</div>
+          <div class="description">アプリでカード番号を確認</div>
+        </div>
+      </div>
+
+      <div class="swiper-prev-pagination-next">
+        <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="sec-right3">
+    <div class="triangle-right">
+    </div>
+  </div>
+
+  <!--他にも特典サービスがたくさん-->
+  <section class="benefits-info">
+    <h2 class="benefits-info__title heading-style">他にも<br class="no-pc">特典・サービスがたくさん</h2>
+    <div class="benefits-info__list content-width">
+      <div class="benefits-info__item">
+        <div class="accordion">
+          国内も、海外も。<br class="no-pc">最高2,000万円の旅行傷害保険
+        </div>
+        <div class="benefits-info__item-content">
+          <p>最高2,000万円の旅行傷害保険<br>海外・国内最高2,000万円の旅行傷害保険が付帯されます。<br class="no-pc">（一部利用条件あり）</p>
+        </div>
+      </div>
+      <div class="benefits-info__item">
+        <div class="accordion">
+          年間300万円までの<br class="no-pc">お買物安心保険
+        </div>
+        <div class="benefits-info__item-content">
+          <p>キラメキクレジットカードで決済して購入した商品が壊れたり、盗まれたりしたときに安心の保険サービスです。 保険料のお支払いや事前のお届けは必要ございません。</p>
+        </div>
+      </div>
+      <div class="benefits-info__item">
+        <div class="accordion">
+          国内空港ラウンジサービスが<br class="no-pc">無料
+        </div>
+        <div class="benefits-info__item-content">
+          <p>国内主要空港のラウンジを無料でご利用いただくことが可能です。</p>
+        </div>
+      </div>
+      <div class="benefits-info__item">
+        <div class="accordion">
+          海外Wi-Fi無料レンタル
+        </div>
+        <div class="benefits-info__item-content">
+          <p>海外でご利用いただけるポータブルWi-Fiを無料でレンタルすることが可能です。</p>
+        </div>
+      </div>
+      <div class="benefits-info__item">
+        <div class="accordion">
+          <span class="icon"></span>
+          24時間対応の<br class="no-pc">紛失受付センター
+        </div>
+        <div class="benefits-info__item-content">
+          <p>紛失したカードの利用停止と再発行のお手続きをWebと電話から同時に行うことが可能です。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--基本情報-->
+
+  <section class="basic-info">
+    <h2 class="basic-info__title heading-style">基本情報</h2>
+    <table class="basic-info__table">
+      <tr class="basic-info__item item-name">
+        <th class="basic-info__item-title">名称</th>
+        <td class="basic-info__item-content">キラメキクレジットカード</td>
+      </tr>
+      <tr class="basic-info__item item-brand">
+        <th class="basic-info__item-title">発行ブランド</th>
+        <td class="basic-info__item-content">AAAAA / BBBBB</td>
+      </tr>
+      <tr class="basic-info__item item-member">
+        <th class="basic-info__item-title">入会対象者</th>
+        <td class="basic-info__item-content">満20歳以上で、ご本人に安定継続収入のある方</td>
+      </tr>
+      <tr class="basic-info__item item-price">
+        <th class="basic-info__item-title">年会費</th>
+        <td class="basic-info__item-content">
+          <p>＜本会員＞</p>
+          <p><span class="no-sp">&#12288;</span>通常&#12288;1100円（税込）</p>
+          <p class="note"><span class="no-sp">&#12288;</span>※年間30万円のご利用で翌年の年会費無料</p>
+          <p class="family">＜家族会員＞</p>
+          <p class="free"><span class="no-sp">&#12288;</span>無料（人数制限なし）</p>
+        </td>
+      </tr>
+      <tr class="basic-info__item item-point">
+        <th class="basic-info__item-title">ポイント</th>
+        <td class="basic-info__item-content">カード利用金額 200円（税込）ご利用で1ポイント</td>
+      </tr>
+      <tr class="basic-info__item item-insurance">
+        <th class="basic-info__item-title">旅行傷害保険</th>
+        <td class="basic-info__item-content">
+          <p class="heading">最高2,000万円の海外・国内旅行傷害保険</p><br>
+          <p class="note">傷害死亡・後遺障害保険は、事前の旅費などの当該カードでのクレジット決済有無により最高補償額が異なります。</p>
+        </td>
+      </tr>
+      <tr class="basic-info__item item-guaranty">
+        <th class="basic-info__item-title">ショッピング補償</th>
+        <td class="basic-info__item-content">
+          <p class="heading">年間300万円までのお買物安心保険</p>
+          <p class="note">一部補償の対象とならない商品・損害がございます。</p>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+
+  <!--CTAセクション-->
+  <div class="sec-right4">
+    <div class="triangle-right">
+    </div>
+  </div>
+
+  <div class="campaign last">
+    <h2 class="campaign__heading">新規ご入会＆ご利用で！</h2>
+
+    <div class="campaign__card">
+      <div class="campaign__card-heading">
+        <div class="heading-flex">
+          <span class="campaign__card-subtitle"><span>最</span><span>大</span></span>
+          <span class="campaign__card-main">8000</span>
+          <span class="campaign__card-subtext">ポイント</span>
+        </div>
+        <span class="present">プレゼント！</span>
+      </div>
+
+      <div class="campaign-period">
+        <div class="campaign-period__label">キャンペーン期間</div>
+        <div class="campaign-period__dates">
+          <p>2021年10月1日～2022年3月31日</p>
+        </div>
+      </div>
+
+      <div class="campaign__note">
+        <p class="kome">最大8000ポイントは新規ご入会かつカード発行後1ヶ月以内に3000円以上ご利用いただいた方が対象となります</p>
+        <p class="caution">＜ご注意事項＞<br>
+          以下のいずれかに当てはまる場合は対象外になります</p>
+        <ul>
+          <li>2021年9月30日時点で弊社が指定するカードをお持ちの方</li>
+          <li>2019年3月1日以降、新規で弊社が指定するカードを発行した履歴がある方</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="campaign__button">
+      <a href="#" class="campaign__button-link">キラメキカードに申し込む<span class="arrow"><i
+            class="fas fa-chevron-right"></i></span></a>
+    </div>
+  </div>
+
+  <div class="sec-left4">
+    <div class="triangle-left">
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="footer_logo">
+      <a href="#">
+        <img src="img/Kirameki_Card_logo.png" alt="logo">
+      </a>
+    </div>
+    <p>
+      &copy; 2004-2021 Kirameki Card Co. Ltd. All Rights Reserved.
+    </p>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
